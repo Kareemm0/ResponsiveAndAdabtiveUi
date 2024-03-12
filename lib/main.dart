@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_and_adabtive_app/LayoutBuilder/layout_builder.dart';
+import 'package:responsive_and_adabtive_app/Expanded/expanded_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: LayoutuilderWidget(),
-      //4- MediaQueryWidget(),
-    );
+        debugShowCheckedModeBanner: false, home: ExpandedWidgtExample()
+        // LayoutuilderWidget(),
+        //4- MediaQueryWidget(),
+        );
   }
 }
